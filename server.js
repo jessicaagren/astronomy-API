@@ -23,9 +23,9 @@ const server = app.listen(PORT, () => {
 
 // Graceful shutdown
 const shutdown = () => {
-  console.log('\n🛑 Stänger av servern...');
+  console.log('\n🛑 Closing server...');
   server.close(() => {
-    console.log('✅ Server avstängd');
+    console.log('✅ Server closed');
     process.exit(0);
   });
 };
