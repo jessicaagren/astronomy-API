@@ -42,7 +42,7 @@ CREATE TABLE `moons` (
   name VARCHAR(100) NOT NULL,
   distance_from_planet_km BIGINT,
   diameter_km DECIMAL(8,2),
-  year_of_discovery INT,
+  year_of_discovery SMALLINT,
   notes VARCHAR(255),
   FOREIGN KEY (planet_id) REFERENCES planets(id)
 );
