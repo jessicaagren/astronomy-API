@@ -6,11 +6,11 @@ This is an API providing information about the solar system, its planets, and th
 
 ### 1. Clone the project
 
-To download the project, run `git clone` + `url` in the terminal.
+To download the project, run `git clone <repository-url>` in the terminal.
 
 ### 2. Install dependencies
 
-Navigate to the project root folder and run `npm i` to install necessary packages.
+Navigate to the project root folder and run `npm install`.
 
 ### 3. Set up the database
 
