@@ -36,16 +36,20 @@ Start the server in development mode with `npm run dev` and access the API at ht
 
 ### Planets
 
-- /api/planets/
-- /api/planets/:id/
-- /api/planets/:id/moons/
-- /api/planets/regular-planets/
-- /api/planets/dwarf-planets/
+| METHOD |  ENDPOINT  | NOTES |
+|:-----|:--------:|------:|
+| GET   | /api/planets/ | Finds all planets |
+| GET   | /api/planets/:id/  | Finds all planets based on id |
+| GET   | /api/planets/:id/moons/ | Finds all moons belonging to a planet based on planet id |
+| GET   | /api/planets/regular-planets/  | Finds all regular planets |
+| GET   | /api/planets/dwarf-planets/ | Finds all dwarf planets |
 
 ### Moons
 
-- /api/moons/
-- /api/moons/:id/
+| METHOD |  ENDPOINT  | NOTES |
+|:-----|:--------:|------:|
+| GET   | /api/moons/ | Finds all moons |
+| GET   | /api/moons/:id/  | Finds all moons based on id |
 
 ## Folder and file structure
 
