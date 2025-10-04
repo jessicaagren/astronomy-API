@@ -1,6 +1,6 @@
 import express from 'express';
 import * as planetService from '../services/planetService.js';
-import { logSuccess, logError, logWarn } from '../utils/logHelpers.js';
+import { logSuccess, logError, logWarn } from '../../utils/logHelpers.js';
 
 const router = express.Router();
 
