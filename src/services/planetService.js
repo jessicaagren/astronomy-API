@@ -1,6 +1,6 @@
 import * as planetData from '../data/planetData.js';
-import { formatPlanet, categorizeSize } from '../../utils/planetHelpers.js';
-import { withErrorHandling } from '../../utils/errorHelpers.js';
+import { formatPlanet, categorizeSize } from '../utils/planetHelpers.js';
+import { withErrorHandling } from '../utils/errorHelpers.js';
 
 export const getAllPlanets = () =>
   withErrorHandling(async () => {

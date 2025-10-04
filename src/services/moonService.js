@@ -1,6 +1,6 @@
 import * as moonData from '../data/moonData.js';
-import { formatMoon } from '../../utils/moonHelpers.js';
-import { withErrorHandling } from '../../utils/errorHelpers.js';
+import { formatMoon } from '../utils/moonHelpers.js';
+import { withErrorHandling } from '../utils/errorHelpers.js';
 
 export const getAllMoons = () =>
   withErrorHandling(async () => {

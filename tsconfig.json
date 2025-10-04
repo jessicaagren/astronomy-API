@@ -20,10 +20,6 @@
 
     "isolatedModules": true
   },
-  "include": [
-    "**/*.ts",
-    "src/routes/planetRoutes.js",
-    "src/routes/moonRoutes.js"
-  ],
+  "include": ["src/**/*.ts", "src/routes/planetRoutes.js"],
   "exclude": ["node_modules", "dist"]
 }

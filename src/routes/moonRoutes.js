@@ -1,6 +1,6 @@
 import express from 'express';
-import * as moonService from '../services/moonService.js';
-import { logSuccess, logError, logWarn } from '../../utils/logHelpers.js';
+import * as moonService from '../services/moonService';
+import { logSuccess, logError, logWarn } from '../utils/logHelpers.js';
 
 const router = express.Router();
 

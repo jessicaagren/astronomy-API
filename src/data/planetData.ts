@@ -1,6 +1,6 @@
-import { getConnection } from '../config/database.js';
-import { Planet } from '../types/PlanetType.js';
-import { Moon } from '../types/MoonType.js';
+import { getConnection } from '../config/database';
+import { Planet } from '../types/PlanetType';
+import { Moon } from '../types/MoonType';
 
 export const findAllPlanets = async (): Promise<Planet[]> => {
   const db = await getConnection();
