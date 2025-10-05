@@ -1,8 +1,8 @@
 import express from 'express';
 // @ts-ignore
-import planetRouter from './routes/planetRoutes';
+import planetRouter from './routes/planetRoutes.js';
 // @ts-ignore
-import moonRouter from './routes/moonRoutes';
+import moonRouter from './routes/moonRoutes.js';
 // @ts-ignore
 import { errorHandler } from './middlewares/errorHandler';
 const app = express();

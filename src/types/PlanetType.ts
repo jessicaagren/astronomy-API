@@ -12,3 +12,5 @@ export interface Planet {
   number_of_moons: number | null;
   fun_fact: string | null;
 }
+
+export type PlanetSize = 'dwarf planet' | 'regular planet';
